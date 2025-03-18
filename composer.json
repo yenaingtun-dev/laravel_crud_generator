@@ -1,0 +1,30 @@
+{
+    "name": "sam/laravel_crud_generator",
+    "description": "laravel crud generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Ye Naing Tun",
+            "email": "yenaingtun425@gmail.com",
+            "homepage": "https://yenaingtun-portfolio.vercel.app/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sam\\LaravelCrudGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sam\\LaravelCrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    }
+}
